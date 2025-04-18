@@ -79,7 +79,7 @@ export const StickyScroll = ({ content, contentClassName }) => {
             data-index={index}
             className="project-section flex flex-col lg:flex-row items-start justify-between gap-8 mb-20"
           >
-            {/* Project Details */}
+
             <motion.div
               className="w-full lg:w-1/2"
               initial={{ opacity: 0, y: 20 }}
