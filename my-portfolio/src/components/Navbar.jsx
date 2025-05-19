@@ -88,7 +88,7 @@ const Navbar = () => {
             <a
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1NyimHkZ_CZ_yVCNK6yKg1afSm2YIyDJO/view?usp=sharing",
+                  "https://drive.google.com/file/d/17_CCMpJQgnZWaJoVIpX_r8yq9hk0L4y2/view?usp=sharing",
                   "_blank"
                 )
               }

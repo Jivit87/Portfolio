@@ -17,13 +17,26 @@ import nstbuddy1 from "../assets/nstbuddy1.png";
 import nstbuddy2 from "../assets/nstbuddy2.png";
 import nstbuddy3 from "../assets/nstbuddy3.png";
 import nstbuddy4 from "../assets/nstbuddy4.png";
+import ai from "../assets/Quado/ai.png";
+import home from "../assets/Quado/home.png";
+import insights from "../assets/Quado/insights.png";
+import loginQuada from "../assets/Quado/login.png";
+import W1 from "../assets/Whispr/1.png";
+import W2 from "../assets/Whispr/2.png";
+import W3 from "../assets/Whispr/3.png";
+import W4 from "../assets/Whispr/4.png";
+import P1 from "../assets/Previa/1.png";
+import P2 from "../assets/Previa/2.png";
+import P3 from "../assets/Previa/3.png";
+import P4 from "../assets/Previa/4.png";
+
 
 
 const content = [
   {
     year: "March, 2025",
-    title: "Portfolio Webiste",
-    github: "",
+    title: "Portfolio Website",
+    github: "https://github.com/Jivit87/Portfolio",
     link: "/",
     description:
       "Developed a responsive portfolio using React, Tailwind CSS, Framer Motion, and GSAP to showcase my projects, skills, and experiences. Integrated Email.js",
@@ -38,6 +51,69 @@ const content = [
       "GSAP",
     ],
     images: [`${portfolio1}`, `${portfolio2}`, `${portfolio3}`, `${portfolio4}`],
+  },
+  {
+    year: "May, 2025",
+    title: "Quado – Full-Stack Task Manager",
+    github: "https://github.com/Jivit87/Quado---Task-Manager-",
+    link: "https://quado-task-manager.onrender.com",
+    description:
+      "A smart, responsive task management app with real-time features, secure authentication, and AI-powered productivity insights.",
+    feature:
+      "JWT auth, task filters, analytics dashboard, mobile responsiveness, Gemini AI assistant for personalized planning and productivity.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+      "JWT",
+      "Gemini API",
+    ],
+    images: [`${home}`, `${insights}`, `${ai}`, `${loginQuada}`],
+  },
+  {
+    year: "April, 2025",
+    title: "Previa – Preventive Healthcare Platform",
+    github: "https://github.com/Jivit87/NEUTRON_TEAM_DOMINATOR",
+    link: "https://neutron-team-dominator-1.onrender.com/",
+    description:
+      "MERN-based health tracker built during a hackathon to log daily metrics and provide AI-powered wellness insights. Led backend – built REST APIs, JWT auth, and Gemini AI integration.",
+    feature:
+      "Mood/sleep tracking, Gemini AI suggestions, health trend visualization.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+      "JWT",
+      "Gemini API",
+    ],
+    images: [`${P1}`, `${P2}`, `${P3}`, `${P4}`],
+  },
+  {
+    year: "March, 2025",
+    title: "Whispr - Chat Website",
+    github: "https://github.com/Jivit87/Whispr---Chatting-Website",
+    link: "https://whispr-chatting-website.onrender.com/login",
+    description:
+      "Developed Wispr, a real-time chat web application using the MERN stack, featuring a clean, responsive interface and secure authentication.",
+    feature:
+      "Wispr supports single chat rooms with real-time messaging using Socket.io. Users can securely log in and chat with others, send emojis, and share images.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+      "JWT",
+      "Socket.io",
+    ],
+    images: [`${W1}`, `${W2}`, `${W3}`, `${W4}`],
   },
   {
     year: "March, 2025",
