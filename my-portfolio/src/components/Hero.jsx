@@ -100,7 +100,7 @@ const Hero = () => {
         </div>
 
         <button
-          onClick={() => window.open("https://drive.google.com/file/d/17_CCMpJQgnZWaJoVIpX_r8yq9hk0L4y2/view?usp=sharing", "_blank")}
+          onClick={() => window.open("https://drive.google.com/file/d/16a3JopH7OSSSpcfjsT-woECmXeAQhcGh/view?usp=sharing", "_blank")}
           className="mt-10 flex items-center justify-center gap-3 px-6 py-3 font-[800] rounded-lg bg-gradient-to-r from-purple-500 to-indigo-500 text-white hover:opacity-90 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50"
         >
           <FaFileAlt className="text-2xl group-hover:animate-bounce" />
